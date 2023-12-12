@@ -1,0 +1,211 @@
+.topnav {
+  overflow: hidden;
+  background-color:red;
+}
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.topnav a:hover {
+  background-color:purple;
+  color: black;
+}
+.footer {
+  background-color:red;
+  padding: 10px;
+}
+.im{
+ float:right; 
+border-radius:50%;
+
+}
+.e{
+ float:center; 
+border-radius:50%;
+
+}
+.h{
+ float:left; 
+border-radius:50%;
+
+}
+
+table, th, td {
+  border: 1px solid black;
+  background-color:grey;
+}
+
+th{
+background-color:grey;
+}
+td{
+background-color:darkred;
+}
+h2{
+
+text-shadow: 2px 2px;
+text-align:center; 
+  color:blue;
+
+}
+
+
+h3{
+background-color:orange;
+}
+
+
+
+.content {
+	background-size:auto;
+	 background-position:CENTER; 
+	 text-align:center; 
+	height:auto;
+    color:red;
+	
+   background-color:black;
+   padding: 10px;
+  
+	
+}
+.f{
+font-size:50px;
+
+
+
+
+}
+.G{
+text-align:left;
+ background-color:green;
+ }
+
+.i{ 
+font-size:auto; 
+background-color:black;
+}
+
+h4{
+text-decoration: underline wavy blue;
+
+}
+* {box-sizing: border-box}
+
+.container {
+  width: 100%;
+  background-color: #ddd;
+}
+
+.skills {
+  text-align: right;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+}
+
+.html {width: 90%; background-color: PURPLE;}
+.css {width: 80%; background-color: #2196F3;}
+
+
+
+
+body {
+  font-family: Arial;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+form.example input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 80%;
+   background:#f1f1f1; 
+}
+
+form.example button {
+  float: left;
+  width: 20%;
+  padding: 10px;
+  background: #2196F3;
+  color: blue;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none;
+  cursor: pointer;
+}
+
+form.example button:hover {
+   background: red;
+ } 
+
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.sear{
+
+background-image:url(img/ab.jpg);
+
+}
+
+.content {
+	background-size:auto;
+	 background-position:CENTER; 
+	 text-align:center; 
+	height:auto;
+    color:white;
+	background-image:url(uploadedimage/joss.jpg);
+   background-color:black;
+   padding: 10px;
+  
+	
+}
+.c{ 
+font-size:auto; 
+background-color:pink;
+background-image:url(uploadedimage/joss.jpg);
+}
+
+.o{
+	background-color:black;
+}
+
+
+
+#customers {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#customers td, #customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4CAF50;
+  color: white;
+}
+
+
+
+
+
+
