@@ -1,0 +1,203 @@
+body { 
+   font-family: Arial, Helvetica, sans-serif; 
+  margin:0; 
+  background-color:red; 
+
+} 
+ul{
+margin:0px;
+padding:0px;
+list-style:none;
+}
+ul li{
+float:left;
+width:325px;
+height:40px;
+background-color:black;
+opacity:.8;
+font-size:20px;
+text-align:center;
+line-height:40px;
+margin-right:4px;
+}
+ul li a{
+text-decoration:none;
+color:white;
+display:block;
+}
+ul li a:hover{
+background-color : red;
+}
+ul li ul li{
+display:none;
+}
+ul li:hover ul li{
+display:block;
+}
+
+
+/* Style the header */
+.header {
+  padding: 80px; 
+  text-align: center;
+  background-color:black;
+  background-size:auto;
+  color:green;
+ border-radius:60%;
+}
+
+/* Increase the font size of the h1 element */
+.header h1 {
+  font-size: 40px;
+   
+}
+
+/* Style the top navigation bar */
+.navbar {
+  overflow: hidden; 
+   background-color:white; 
+ } 
+
+/* Style the navigation bar links */
+ .navbar a { 
+   float: left; 
+   display: block; 
+  color: white; 
+   text-align: center; 
+   padding: 14px 20px; 
+   text-decoration: none; 
+}
+
+/* Right-aligned link */
+ .navbar a.right { 
+   float: right; 
+ } 
+
+Change color on hover
+ .navbar a:hover { 
+  background-color:none; 
+   color: black;
+
+ 
+} 
+.f{
+	border-radius:50%;
+	
+	
+	
+}
+
+.topnav {
+  overflow: hidden;
+  background-color:golden;
+}
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px; 
+  
+  text-decoration: none;
+}
+.topnav a:hover {
+  background-color:purple;
+  color: black;
+}
+.footer {
+  background-color:red;
+  padding: 10px;
+}
+
+
+.content {
+	background-size:auto;
+	 background-position:CENTER; 
+	 text-align:center; 
+	height:auto;
+    color:white;
+	
+   background-color:BLACK;
+   padding: 10px;
+  
+	
+}
+.ab{
+ 
+ background-image:url(uploadedimage/sc.png);
+}
+
+
+
+
+.i{ 
+font-size:auto; 
+background-color:pink;
+background-image:url(uploadedimage/joss.jpg);
+}
+
+
+
+
+.footer {
+  background-color:green;
+  padding: 10px;
+}
+
+#contact {
+	background-color:purple;
+	
+}
+
+.box
+{
+position: absolute;
+color:white;
+top: 20%;
+left: 55%;
+transform: translate(-250px,-50px);
+} 
+.box h2
+{
+padding:0;
+margin:0;
+text-shadow:0 2px 0;
+font-size:50px;
+}
+
+span:before{
+color:blue;
+content:'';
+animation:animate infinite 5s;
+}
+@keyframes animate{
+0%{
+content:'OPPENING';
+}
+20%{
+content:'SOON';
+}
+30%{
+content:'..';
+}
+ 40%{ 
+ content:'...'; 
+ } 
+ 50%{ 
+ content:'....'; 
+} 
+60%{ 
+ content:'......'; 
+ }
+
+
+  
+}
+.ga{
+	background-color:BLACK;
+	 color: WHITE;
+}
+
+	
+
+
